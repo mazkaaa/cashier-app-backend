@@ -1,7 +1,7 @@
 {
-  "name": "kasir-app-backend",
+  "name": "cashier-app-backend",
   "version": "1.0.0",
-  "description": "Kasir application backend",
+  "description": "Cashier application back-end using restful API powered by Express and NodeJS.",
   "main": "src/app.js",
   "scripts": {
     "start": "nodemon src/app.js",
