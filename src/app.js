@@ -2,12 +2,15 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const cookieParser = require('cookie-parser');
 const mongoose = require('mongoose');
-
+const cors = require('cors');
+const morgan = require('morgan');
 const app = express();
 
 app.use(bodyParser.urlencoded({ extended: true }));
+app.use(cors());
 app.use(express.json());
 app.use(cookieParser());
+app.use(morgan('combined'));
 
 require('./api/routes/itemRoutes')(app);
 
