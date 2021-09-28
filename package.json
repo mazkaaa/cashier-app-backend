@@ -4,7 +4,7 @@
   "description": "Cashier application back-end using restful API powered by Express and NodeJS.",
   "main": "src/app.js",
   "scripts": {
-    "start": "nodemon src/app.js",
+    "start": "node src/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -21,6 +21,7 @@
     "body-parser": "^1.19.0",
     "cookie-parser": "^1.4.5",
     "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
     "express": "^4.17.1",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.13.5",
